@@ -25,6 +25,7 @@ public class MyTest {
         System.out.println("test4");
     }
 
+
     @AfterSuite
     public static void testA() {
         System.out.println("testAfter ");

@@ -28,7 +28,6 @@ public class StartTest {
             }
         }
 
-
         for (Method m : classMethod) {
             if (m.isAnnotationPresent(AfterSuite.class)) {
                 if (methods.size() > 0 && methods.get(methods.size() - 1).isAnnotationPresent(AfterSuite.class)) {
